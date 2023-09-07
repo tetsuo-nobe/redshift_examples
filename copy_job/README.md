@@ -8,7 +8,7 @@
 
 * COPY JOB によるデータの COPY 先のテーブルの作成
 ```sql
-create table customers (
+CREATE TABLE customers (
   customer_id    integer primary key,
   customer_name  varchar
 );
