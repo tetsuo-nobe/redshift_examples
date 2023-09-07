@@ -91,14 +91,22 @@ AS ( select * from sales);
 * CTAS で作成した外部テーブルへクエリ発行
 
 ```sql
-select sellerid, username, (firstname ||' '|| lastname) as name,
+SELECT sellerid, username, (firstname ||' '|| lastname) AS name,
 city, avg(qtysold)
-from spectrum.sales2008 s, date, users
-where s.sellerid = users.userid
-and s.dateid = date.dateid
-and year = 2008
-and city = 'San Diego'
-group by sellerid, username, name, city
-order by 5 desc
-limit 5;
+FROM spectrum.sales2008 s, date, users
+WHERE s.sellerid = users.userid
+AND s.dateid = date.dateid
+AND city = 'San Diego'
+GROUP BY sellerid, username, name, city
+ORDER BY 5 DESC
+LIMIT 5;
+```
+
+---
+
+* テーブルとスキーマの削除
+
+```sql
+DROP TABLE     spectrum.stocksummary;
+DROP SCHEMA    spectrum;
 ```
