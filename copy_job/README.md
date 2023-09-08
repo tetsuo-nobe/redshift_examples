@@ -3,6 +3,8 @@
 ---
 
 * Amazon S3 バケット tnobe-redshift-autocopy の autocopy フォルダのファイルを自動コピーする
+* 参考: AWS Blog [自動コピーを利用した Amazon S3 から Amazon Redshift への 簡易化されたデータ取り込み (プレビュー)](https://aws.amazon.com/jp/blogs/news/simplify-data-ingestion-from-amazon-s3-to-amazon-redshift-using-auto-copy-preview/)
+* PREVIEW_2022 のメンテナンストラックを持つ Amazon Redshift クラスターが必要
 
 ---
 
