@@ -33,7 +33,7 @@ INSERT INTO personal_eval VALUES
 ;
 ```
 
-* ロールの作成と テーブルへのSELECT の許可
+* ロールの作成とテーブルへの SELECT の許可
 
 ```sql
 CREATE ROLE hr_role;
@@ -74,7 +74,7 @@ ATTACH RLS POLICY all_policy ON personal_eval TO ROLE hr_role;
 ATTACH RLS POLICY kansai_policy ON personal_eval TO ROLE hr_kansai_role;
 ```
 
-* 行レベルセキュリティーを有効化
+* 行レベルセキュリティを有効化
 
 ```sql
 ALTER TABLE personal_eval ROW LEVEL SECURITY on;
@@ -93,7 +93,7 @@ SELECT current_user;
 SELECT * FROM PERSONAL_EVAL;
 ```
 
-* nobe ユーザーで personal_eval テーブルのdeptid が関西地区の行しかアクセスできない
+* nobe ユーザーで personal_eval テーブルの deptid が関西地区の行しかアクセスできない
 
 ```sql
 SET SESSION AUTHORIZATION 'nobe';
