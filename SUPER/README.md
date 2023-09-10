@@ -13,8 +13,8 @@ create table demo_customers (
 
 insert into demo_customers values (1,
 JSON_PARSE('{ "first":  "John","last":   "Doe"}'),
-JSON_PARSE('[ {"type": "work","number":"031111111"},{"type": "cell","number":"0901111111"}]');
-)
+JSON_PARSE('[ {"type": "work","number":"031111111"},{"type": "cell","number":"0901111111"}]')
+);
 
 insert into demo_customers values (2,
 JSON_PARSE('{ "first":  "Jack","last":   "Doe"}'),
