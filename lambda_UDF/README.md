@@ -50,7 +50,7 @@ IAM_ROLE 'arn:aws:iam::000000000000:role/service-role/AmazonRedshift-CommandsAcc
 
 ```sql
 CREATE TABLE udf_transactions (CustomerId varchar, StoreId varchar, TransactionAmount decimal(10,4));
-INSERT INTO transactions VALUES
+INSERT INTO udf_transactions VALUES
 ('0', '123', '10.34'),
 ('1', '123', '9.99'),
 ('2', '234', '10.34'),
