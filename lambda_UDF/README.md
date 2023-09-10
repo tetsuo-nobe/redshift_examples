@@ -43,7 +43,7 @@ def lambda_handler(event, context):
 CREATE OR REPLACE EXTERNAL FUNCTION udf_dynamodb_lookup (tableName varchar, columnName varchar, columnValue varchar)
 RETURNS varchar STABLE
 LAMBDA 'Lambda_DynamoDB_Lookup'
-IAM_ROLE 'arn:aws:iam::117611555214:role/service-role/AmazonRedshift-CommandsAccessRole-20230104T095553';
+IAM_ROLE 'arn:aws:iam::000000000000:role/service-role/AmazonRedshift-CommandsAccessRole';
 ```
 
 * 作成したユーザー定義関数の使用
