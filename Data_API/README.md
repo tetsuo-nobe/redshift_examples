@@ -4,4 +4,4 @@
 - demo2-data-api.ipynb
     - Amazon SageMaker Jupyter ノートブック のサンプル
 - solution_example.py
-    - チャレンジ課題の解答例
+    - チャレンジアクティビティの解答例
