@@ -65,7 +65,7 @@
 
 1. **Connect to studentXX-wg** のダイアログで **Federated user** が選択されていることと、**Database** に **dev** が入力されていることを確認し、**Create Connection** をクリックします。
 
-    ![edit-connection](images/edit_connection.png)
+    ![connection](images/connect-dialog.png)
 
 1. ページ右側にエディタのタブ **Untitled 1** が表示されることを確認します。
     - 赤色のメッセージが表示された場合は、X をクリックして非表示にして下さい。
