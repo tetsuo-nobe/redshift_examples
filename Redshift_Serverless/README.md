@@ -56,7 +56,7 @@
     - https://docs.aws.amazon.com/ja_jp/redshift/latest/gsg/new-user-serverless.html#serverless-load-data-from-s3
 
 
-1. **サーバーレスダッシュボード** ページの右上にある **クエリデータ** をクリックします。
+1. **サーバーレスダッシュボード** ページの右上にある **データをクエリ** をクリックします。
 
 1. ページ左側のリストから、ご自分が作成したワークグループ名をクリックします。
     - 例：student99 の ID をご使用の場合、`Serverless: student99-wg` をクリックします。　 
