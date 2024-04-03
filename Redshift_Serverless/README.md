@@ -63,7 +63,7 @@
 
     ![connection](images/connect-dialog.png)
 
-1. **Edit Connection** のダイアログで **Federated user** が選択されていることと、**Database** に **dev** が入力されていることを確認し、**Create Connection** をクリックします。
+1. **Connect to studentXX-wg** のダイアログで **Federated user** が選択されていることと、**Database** に **dev** が入力されていることを確認し、**Create Connection** をクリックします。
 
     ![edit-connection](images/edit_connection.png)
 
