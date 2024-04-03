@@ -61,7 +61,7 @@
 1. ページ左側のリストから、ご自分が作成したワークグループ名をクリックします。
     - 例：student99 の ID をご使用の場合、`Serverless: student99-wg` をクリックします。　 
 
-    ![connection](images/connect-dialog.png)
+    ![connection](images/edit_connection.png)
 
 1. **Connect to studentXX-wg** のダイアログで **Federated user** が選択されていることと、**Database** に **dev** が入力されていることを確認し、**Create Connection** をクリックします。
 
